@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:wght@300;500;600;800&family=Roboto:wght@700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2d3032;
+    overflow-x: hidden;
+}
+.card
+{
+    background: #ffffff;
+    width: 330px;
+    height: 570px;
+    padding: 1em;
+    position: relative;
+    overflow:hidden;
+    border-radius: 12px;
+}
+.bg
+{
+    width: 400px;
+    height: 550px;
+    background: #410275;
+    position: absolute;
+    top: -5.5em;
+    right: 0;
+    margin: auto;
+    clip-path: ellipse(65% 63% at 58% 30%);
+    overflow: hidden;
+}
+.form
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    padding: 2em;
+}
+.header_img
+{
+    width: 220px;
+    height: 220px;
+    margin: 1em auto;
+}
+.header_img img
+{
+    width: 60px;
+}
+
+.form input
+{
+    width: 100%;
+    border-radius: 40px;
+    border: none;
+    background: rgba(0, 0, 0, 20%);
+    padding: 14px 16px;
+    margin: 0.7em auto;
+    outline: none;
+    color: #fff;
+}
+.input
+{
+    margin-top: -5em;
+}
+
+a
+{
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+}
+.button
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2em ;
+    text-align: center;
+}
+button {
+    width: 100%;
+    padding: 13px 15px;
+    border-radius: 10px;
+    border: none;
+    background: #410275;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+span
+{
+    color: royalblue;
+}
+#bottom_text
+{
+    color: #2d3032;
+}
